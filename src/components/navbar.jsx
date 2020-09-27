@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = (props) => {
     return ( 
         <nav className="navbar navbar-light bg-light">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="http://localhost:3000/">
                 Navbar 
                 <span className="badge badge-pill badge-secondary">
                     {props.totalCounters}
